@@ -10,7 +10,7 @@ const Textslider = () => {
     const textSlide = textSlideRef.current;
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-
+      const scrollWidth = textSlide.scrollWidth *8
       
       textSlide.style.transform = `translateX(${-scrollPosition}px)`;
 

@@ -199,6 +199,13 @@ letter-spacing: -0.02825rem;
 
 
 
+
+.fullbanner{
+    display: none;
+}
+
+
+
 @media (max-width: 480px) {
     .fullcontain{
 
