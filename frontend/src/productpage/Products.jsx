@@ -334,7 +334,7 @@ const Products = () => {
   // useEffect(() => {
   //   const fetchProducts = async () => {
   //     try {
-  //       const response = await axios.get('http://127.0.0.1:4000/api/products/');
+  //       const response = await axios.get('https://rentify-rose-theta.vercel.app/api/products/');
   //       console.log(response.data.data);
         
   //       setProducts(response.data.data);

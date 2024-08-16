@@ -31,7 +31,7 @@ const AdminDashboard = () => {
     });
 
     try {
-      const response = await axios.post('http://127.0.0.1:4000/api/products', data, {
+      const response = await axios.post('https://rentify-rose-theta.vercel.app/api/products', data, {
         headers: {
           'Content-Type': 'multipart/form-data',
           Authorization: `Bearer ${token}`, // Ensure the token is included
