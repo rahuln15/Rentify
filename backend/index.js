@@ -5,7 +5,7 @@ require('dotenv').config();
 
 // Set the allowed origin to your React frontend URL
 const corsOptions = {
-    origin: 'http://localhost:5173', // Replace with your frontend's URL
+    origin: process.env.URL, // Replace with your frontend's URL
     // methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
 };
