@@ -334,7 +334,7 @@ const Products = () => {
   // useEffect(() => {
   //   const fetchProducts = async () => {
   //     try {
-  //       const response = await axios.get('https://rentify-rose-theta.vercel.app/api/products/');
+  //       const response = await axios.get('https://rentify-arx4.onrender.com/api/products/');
   //       console.log(response.data.data);
         
   //       setProducts(response.data.data);

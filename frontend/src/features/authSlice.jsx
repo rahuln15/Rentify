@@ -13,7 +13,7 @@
 //   async (userData, { rejectWithValue }) => {
       
 //       try {
-//           const response = await axios.post('https://rentify-rose-theta.vercel.app/api/signup', userData);
+//           const response = await axios.post('https://rentify-arx4.onrender.com/api/signup', userData);
 //         //   console.log(response.data);
           
 //       return response.data;
@@ -27,7 +27,7 @@
 //   'auth/login',
 //   async (loginData, { rejectWithValue }) => {
 //     try {
-//       const response = await axios.post('https://rentify-rose-theta.vercel.app/api/signup', loginData);
+//       const response = await axios.post('https://rentify-arx4.onrender.com/api/signup', loginData);
 //       return response.data;
 //     } catch (err) {
 //       return rejectWithValue(err.response.data);
@@ -98,7 +98,7 @@
 //   'auth/signup',
 //   async (userData, { rejectWithValue }) => {
 //     try {
-//       const response = await axios.post('https://rentify-rose-theta.vercel.app/api/signup', userData);
+//       const response = await axios.post('https://rentify-arx4.onrender.com/api/signup', userData);
 //       return response.data;
 //     } catch (err) {
 //       return rejectWithValue(err.response.data);
@@ -110,7 +110,7 @@
 //   'auth/login',
 //   async (loginData, { rejectWithValue }) => {
 //     try {
-//       const response = await axios.post('https://rentify-rose-theta.vercel.app/api/login', loginData); 
+//       const response = await axios.post('https://rentify-arx4.onrender.com/api/login', loginData); 
 //       console.log(response.data);
       
 //       return response.data;
@@ -186,7 +186,7 @@ export const signupUser = createAsyncThunk(
   'auth/signup',
   async (userData, { rejectWithValue }) => {
     try {
-      const response = await axios.post('https://rentify-rose-theta.vercel.app/api/signup', userData);
+      const response = await axios.post('https://rentify-arx4.onrender.com/api/signup', userData);
       return response.data;
     } catch (err) {
       return rejectWithValue(err.response.data);
@@ -198,7 +198,7 @@ export const loginUser = createAsyncThunk(
   'auth/login',
   async (loginData, { rejectWithValue }) => {
     try {
-      const response = await axios.post('https://rentify-rose-theta.vercel.app/api/login', loginData);
+      const response = await axios.post('https://rentify-arx4.onrender.com/api/login', loginData);
       console.log(response.data);
       
       return response.data;

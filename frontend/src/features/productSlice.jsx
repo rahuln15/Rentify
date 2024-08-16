@@ -15,7 +15,7 @@ export const fetchProducts = createAsyncThunk(
   'products/fetchProducts',
   async (_, { rejectWithValue }) => {
     try {
-      const response = await axios.get('https://rentify-rose-theta.vercel.app/api/products/');
+      const response = await axios.get('https://rentify-arx4.onrender.com/api/products/');
     //   console.log(response.data);
       
       return response.data.data;
@@ -32,7 +32,7 @@ export const fetchProductById = createAsyncThunk(
     console.log(id);
     
     try {
-      const response = await axios.get(`https://rentify-rose-theta.vercel.app/api/products/${id}`);
+      const response = await axios.get(`https://rentify-arx4.onrender.com/api/products/${id}`);
       console.log(response.data.data);
       
       return response.data.data;
