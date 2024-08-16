@@ -110,7 +110,7 @@
 //   'auth/login',
 //   async (loginData, { rejectWithValue }) => {
 //     try {
-//       const response = await axios.post('https://rentify-arx4.onrender.com/api/login', loginData); 
+//       const response = await axios.post('https://rentify-arx4.onrender.com/', loginData); 
 //       console.log(response.data);
       
 //       return response.data;
